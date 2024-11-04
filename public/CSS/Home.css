@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Storm Catcher';
+    src: url('../Fonts/Storm\ Catcher.otf') format('truetype');
+}
+
+
+
+#title {
+    text-align: center;
+}
+
+#mainbackground {
+    background-color: #B9489A;
+   
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+h3 {
+    font-family: 'Storm Catcher';
+}
+.info-container {
+    background-color: yellow;
+    padding: 20px;
+    
+    
+}
+
+.contact-info {
+    display: flex;
+    align-items: center; 
+    gap: 10px;           
+}
+
+
+
+
+
+.info-content {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
