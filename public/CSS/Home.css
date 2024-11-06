@@ -3,32 +3,40 @@
     src: url('../Fonts/Storm\ Catcher.otf') format('truetype');
 }
 
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 #title {
     text-align: center;
 }
 
 #mainbackground {
-    background-color: #B9489A;
+    background-color: #1E9AD6;
    
 }
 
-h2 {
-    text-align: center;
-    
+.highlight {
+    color: orange;
+   
+    font-weight: bold;
 }
 
-h3 {
-    font-family: 'Storm Catcher';
-}
+
+
 .info-container {
     background-color: yellow;
     padding: 20px;
-    
-    
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center content horizontally */
 }
 
+.w3-row-padding{
+    background-color: yellow;
+}
 .contact-info {
     display: flex;
     align-items: center; 
@@ -44,3 +52,45 @@ h3 {
     text-align: center;
 }
 
+/* Main container style */
+.info-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Heading styling */
+.info-container-main h3 {
+    font-size: 6.3rem;
+    font-weight: bold;
+    color: #333;
+
+}
+
+
+.info-container-main h4 {
+    font-size: 5.3rem;
+    font-weight: bold;
+    color: #333;
+
+}
+ .info-container-main img { 
+    width: 500px;
+    height: 500px;
+   
+}
+
+.info-container-main p {
+    font-size: 5.3rem;
+    font-weight: bold;
+    color: #333;
+
+}

@@ -1,0 +1,57 @@
+/* Style for the sticky navbar */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 9999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd700 !important; /* Yellow color on hover */
+    transition: color 0.3s;
+}
+
+/* Lightning button styling */
+.lightning-button {
+    border: none;
+    background: transparent;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.lightning-button:hover {
+    color: #ffd700; /* Lightening bolt effect */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Sticky navbar to the top */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+body {
+    padding-top: 60px; /* Offset for fixed navbar */
+}
+
+/* Modern responsive design adjustments */
+@media (max-width: 991px) {
+    .navbar .nav-link {
+        font-size: 1rem;
+    }
+}
