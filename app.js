@@ -64,6 +64,9 @@ app.use((req, res) => {
     res.status(404).send('Page not found');
 });
 
+app.use(express.static('public'));
+
+
 // Start the server
 const port = 3000;
 app.listen(port, () => {
