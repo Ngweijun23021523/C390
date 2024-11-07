@@ -1,20 +1,39 @@
-.menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    background-color:#c59803 ;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  
-  
-  .menu div {
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#title {
+  text-align: center;
+}
+
+#mainbackground {
+  background-color: #1E9AD6;
+ 
+}
+
+.carousel-inner img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%; 
+  height: auto;  
+}
+
+/* Center carousel control buttons vertically */
+.carousel-control-prev,
+.carousel-control-next {
+  top: 100%;                /* Position them at the middle of the carousel */
+  transform: translateY(-30%); /* Offset by 50% of their own height */
+  width: 5%;
+}
+
+
+
+
+
+
+
+
+

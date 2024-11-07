@@ -31,6 +31,10 @@ app.get('/', (req, res) => {
     res.render('Home', { title: 'Home' });
 });
 
+app.get('/about', (req, res) => {
+    res.render('about', { title: 'about' });
+});
+
 app.get('/Moodboard', (req, res) => {
     res.render('Moodboard', { title: 'Moodboard' }); 
 });
@@ -38,6 +42,14 @@ app.get('/Moodboard', (req, res) => {
 app.get('/sticker', (req, res) => {
     res.render('sticker', { title: 'sticker' }); 
 });
+
+app.get('/flower', (req, res) => {
+    res.render('flower', { title: 'flower' }); 
+})
+
+app.get('/Escape', (req, res) => {
+    res.render('Escape', { title: 'Escape' }); 
+})
 
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);

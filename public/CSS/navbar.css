@@ -1,6 +1,6 @@
 /* Style for the sticky navbar */
 .navbar {
-    background-color: #333;
+    background-color: #192689;
     padding: 10px 0;
     z-index: 9999;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -16,11 +16,11 @@
 }
 
 .navbar .nav-link:hover {
-    color: #ffd700 !important; /* Yellow color on hover */
+    color: #ffd700 !important; 
     transition: color 0.3s;
 }
 
-/* Lightning button styling */
+
 .lightning-button {
     border: none;
     background: transparent;
@@ -30,14 +30,14 @@
 }
 
 .lightning-button:hover {
-    color: #ffd700; /* Lightening bolt effect */
+    color: #ffd700; 
 }
 
 .navbar-toggler-icon {
     background-color: #fff;
 }
 
-/* Sticky navbar to the top */
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -46,10 +46,9 @@
 }
 
 body {
-    padding-top: 60px; /* Offset for fixed navbar */
+    padding-top: 60px;
 }
 
-/* Modern responsive design adjustments */
 @media (max-width: 991px) {
     .navbar .nav-link {
         font-size: 1rem;

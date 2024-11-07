@@ -25,14 +25,23 @@ html {
 
 
 
+
 .info-container {
     background-color: yellow;
     padding: 20px;
-    max-width: 1300px;
+    max-width: 1100px; 
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center content horizontally */
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 auto; 
 }
+
+
+#about .info-container,
+#portfolio .info-container {
+    width: 100%; 
+}
+
 
 .w3-row-padding{
     background-color: yellow;
@@ -94,3 +103,26 @@ html {
     color: #333;
 
 }
+
+.spaced-img {
+    margin-right: 100px; 
+}
+
+
+.tab-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+    border-radius: 5px; /* optional, for rounded corners */
+  }
+  
+  .tab-button:hover {
+    background-color: darkblue; /* optional, for hover effect */
+  }
+  
+  
+  
