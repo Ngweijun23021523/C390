@@ -28,7 +28,7 @@ const storage= multer.diskStorage({
 const upload= multer({storage:storage});
 
 app.get('/', (req, res) => {
-    res.render('index', { title: 'index' });
+    res.render('Home', { title: 'Home' });
 });
 
 app.get('/about', (req, res) => {
