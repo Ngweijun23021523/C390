@@ -29,6 +29,10 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
+
+const port = process.env.PORT || 3000;
+
+
 // Define Routes
 app.get('/', (req, res) => {
     res.render('Home', { title: 'Home' });
