@@ -58,6 +58,10 @@ app.get('/Escape', (req, res) => {
     res.render('Escape', { title: 'Escape' }); 
 })
 
+app.get('/Foodle', (req, res) => {
+    res.render('Foodle', { title: 'Foodle' });
+});
+
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
