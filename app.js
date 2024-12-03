@@ -62,6 +62,10 @@ app.get('/Foodle', (req, res) => {
     res.render('Foodle', { title: 'Foodle' });
 });
 
+app.get('/travel', (req, res) => {
+    res.render('travel', { title: 'travel' });
+});
+
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
