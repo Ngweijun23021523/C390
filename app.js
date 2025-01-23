@@ -66,6 +66,25 @@ app.get('/travel', (req, res) => {
     res.render('travel', { title: 'travel' });
 });
 
+app.get('/animal', (req, res) => {
+    res.render('animal', { title: 'animal' });
+});
+
+app.get('/about', (req, res) => {
+    res.render('about', { title: 'about' });
+});
+
+app.get('/pokemon', (req, res) => {
+    res.render('pokemon', { title: 'pokemon' });
+});
+
+
+
+
+
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
+
+
+

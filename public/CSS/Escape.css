@@ -57,7 +57,6 @@ html {
     text-align: center;
 }
 
-/* Main container style */
 .info-container-main {
     display: flex;
     flex-direction: column;
@@ -75,7 +74,11 @@ html {
 
 
 
-
+.info-container p, .info-container h2 {
+    color: black; /* Black text */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
 
 
 
@@ -83,14 +86,14 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Creates 2 columns */
     gap: 10px; /* Adjusts spacing between images */
-    max-width: 100%; /* Limits grid width */
+    max-width: 100%; 
 }
 
 .image-grid img {
-    width: 100%; /* Makes each image take full width of its cell */
-    height: auto; /* Maintains aspect ratio */
-    object-fit: cover; /* Adjusts how images fill the cell */
-    border-radius: 8px; /* Optional: Adds rounded corners to images */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+    border-radius: 8px; 
 }
 
   

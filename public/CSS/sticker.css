@@ -1,39 +1,85 @@
-
-
+/* General styles */
 html {
   scroll-behavior: smooth;
 }
 
-
-#title {
-  text-align: center;
-}
-
+/* Main Background Color */
 #mainbackground {
   background-color: #1E9AD6;
- 
+  font-family: 'Storm Catcher', sans-serif;
+}
+
+
+#demo {
+  background-color: #1E9AD6; 
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-inner img {
-  display: block;
-  margin: 0 auto;
-  max-width: 80%; 
-  height: auto;  
+  width: 20%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
 }
 
-/* Center carousel control buttons vertically */
-.carousel-control-prev,
-.carousel-control-next {
-  top: 100%;                /* Position them at the middle of the carousel */
-  transform: translateY(-30%); /* Offset by 50% of their own height */
-  width: 5%;
+/* Info container */
+.info-container {
+  background-color: yellow;
+  padding: 20px;
+  max-width: 1100px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
+.info-container p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
 
+.info-container h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
 
+/* Button Styling */
+.btn-primary {
+  background-color: #1E9AD6;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: yellow;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
 
+.btn-primary:hover {
+  background-color: #117bb2;
+}
 
+/* Image Grid */
+.image-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 
-
+.image-grid-item {
+  max-width: 80%;
+  height: auto;
+  border: 2px solid #1E9AD6;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
 

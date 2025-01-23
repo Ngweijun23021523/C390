@@ -1,0 +1,72 @@
+/* General styles */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main Background Color */
+#mainbackground {
+    background-color: #1E9AD6;
+    font-family: 'Storm Catcher', sans-serif;
+}
+
+
+.info-container {
+    background-color: yellow; /* Yellow background */
+    padding: 20px;
+    max-width: 1100px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.info-container p, .info-container h2 {
+    color: black; /* Black text */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+.btn-primary {
+    background-color: #1E9AD6;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: yellow;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #117bb2;
+}
+
+video {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.info-container p {
+    margin-top: 15px;
+}
+
+a {
+    color: #1E9AD6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+

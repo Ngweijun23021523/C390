@@ -1,0 +1,78 @@
+/* General styles */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main Background Color */
+#mainbackground {
+    background-color: #1E9AD6;
+    font-family: 'Storm Catcher', sans-serif;
+}
+
+/* Project container */
+.project {
+    background-color: yellow;
+    padding: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.moodboard-image {
+    width: 50%; 
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 5px solid #333;
+    padding: 10px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+
+.btn-primary {
+    background-color: #1E9AD6;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: yellow;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #117bb2;
+}
+
+
+[data-aos] {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+[data-aos="fade-left"] {
+    transform: translateX(-30px);
+}
+
+[data-aos="fade-left"].aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
