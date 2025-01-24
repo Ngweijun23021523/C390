@@ -78,6 +78,10 @@ app.get('/pokemon', (req, res) => {
     res.render('pokemon', { title: 'pokemon' });
 });
 
+app.get('/fullstack', (req, res) => {
+    res.render('fullstack', { title: 'fullstack' });
+});
+
 
 
 
