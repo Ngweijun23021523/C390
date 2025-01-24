@@ -74,8 +74,8 @@ app.get('/about', (req, res) => {
     res.render('about', { title: 'about' });
 });
 
-app.get('/pokemon', (req, res) => {
-    res.render('pokemon', { title: 'pokemon' });
+app.get('/Pokemonapp', (req, res) => {
+    res.render('Pokemonapp', { title: 'Pokemonapp' });
 });
 
 app.get('/fullstack', (req, res) => {
